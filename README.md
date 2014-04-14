@@ -7,10 +7,10 @@ Utilizes sqlite3 to store and load characters to/from a database file. Current d
 
 Gameplay:
 
->Characters have 4 attacks, each with a name and damage value. 
->User gets to choose a character, computer chooses a random character not in use. 
->Player can choose which attack to use each turn.
->"Speed" stat value (out of 100) for the character will determine the percentage chance that an attack will miss.
+=>Characters have 4 attacks, each with a name and damage value. 
+=>User gets to choose a character, computer chooses a random character not in use. 
+=>Player can choose which attack to use each turn.
+=>"Speed" stat value (out of 100) for the character will determine the percentage chance that an attack will miss.
 ===> Ex: 30-Speed means that there is a 30% chance an attack will miss.
 
 Files:
