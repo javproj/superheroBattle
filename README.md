@@ -5,6 +5,8 @@ Super Hero Battle is a python game where the user can battle with the computer i
 
 Utilizes sqlite3 to store and load characters to/from a database file. Current database (main.db) only has 2 characters.
 
+Others can easily take this code and create their own database of characters by creating a new DB file and using the amrDB.py file.
+
 Gameplay:
 
 =>Characters have 4 attacks, each with a name and damage value. 
