@@ -65,11 +65,11 @@ class superHero():
     def getMoveVal(self, val):
         if val == 1:
             return self.a1v
-        if val == 2:
+        elif val == 2:
             return self.a2v
-        if val == 3:
+        elif val == 3:
             return self.a3v
-        if val == 4:
+        elif val == 4:
             return self.a4v
 ### END CLASSES
 

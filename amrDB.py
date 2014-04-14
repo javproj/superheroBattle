@@ -3,7 +3,8 @@ import sys
 import os
 
 # INITIALIZATION FOR SQLITE - Creates db with this name if it doesn't exist
-con = sqlite3.connect('main.db')
+db = raw_input("Enter the name of the database to use: ")
+con = sqlite3.connect(db)
 cur = con.cursor()
 
 #Makes a tuple out of the inputted data

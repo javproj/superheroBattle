@@ -1,7 +1,8 @@
 import sqlite3
 import sys
 
-con = sqlite3.connect('main.db')
+db = raw_input("Enter the name of the database to use: ")
+con = sqlite3.connect(db)
 cur = con.cursor()
 
 with con:
