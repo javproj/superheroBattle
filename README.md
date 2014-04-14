@@ -21,7 +21,7 @@ Gameplay:
 
 Files:
 
-shb_v2.py => Main game file. Contains the superHero() class which has functions for battling and keeping track of user health and attacks.
+shb.py => Main game file. Contains the superHero() class which has functions for battling and keeping track of user health and attacks.
 
 amrDB.py => File used to Add/Modify/Remove characters to/from the database.
 
