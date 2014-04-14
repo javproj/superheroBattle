@@ -102,7 +102,8 @@ while True:
         t_a4v = []
         
         #SQLITE3 Constants
-        con1 = sqlite3.connect('main.db', timeout = 10)
+        db = raw_input("Enter the name of the database to use: ")
+        con = sqlite3.connect(db, timeout = 10)
         cur1 = con1.cursor()
         
         #Gets the names of all in my db
